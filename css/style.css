@@ -11,10 +11,12 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background: #f8fafc;
     color: #1e293b;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -342,8 +344,10 @@ body {
 /* Projects */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 25px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .project-card:hover,
