@@ -1,4 +1,4 @@
 function showMessage() {
     document.getElementById("message").innerHTML =
-    "🚀 Welcome to my JavaScript Interactive Project!";
+    "Welcome to my Portfolio Website!";
 }
